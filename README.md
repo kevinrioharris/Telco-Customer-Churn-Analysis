@@ -154,8 +154,6 @@ These prediction modes ensure flexibility and scalability, allowing users to add
 
 ---
 
-## **How to Run the Project**
-
 ### **Prerequisites**
 Install Python 3.x and the following libraries:
 - pandas
@@ -169,9 +167,3 @@ Install Python 3.x and the following libraries:
 - pickle
 - joblib
 - imblearn
-
-### **Steps to Run**  
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/telco-churn-analysis.git
-   cd telco-churn-analysis
