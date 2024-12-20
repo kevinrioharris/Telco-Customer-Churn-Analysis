@@ -11,7 +11,7 @@ st.set_page_config(
 st.title("Model Prediction")
 
 # Load the trained model
-model = joblib.load(r'..\model.pkl')
+model = joblib.load(r'../model.pkl')
 
 # Toggle between prediction modes
 prediction_mode = st.radio(
