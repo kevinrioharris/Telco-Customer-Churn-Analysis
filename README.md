@@ -61,6 +61,19 @@ This project includes **Streamlit-powered pages** for interactive exploration an
 
 ---
 
+### **Live Streamlit Application**
+
+You can explore and interact with the **Streamlit app** deployed online through the following link:
+
+[Telco Customer Churn Analysis - Streamlit App](https://telco-customer-churn-analysis-kevin.streamlit.app/Model_Prediction)
+
+This live app allows you to:
+- Explore customer churn data visualizations.
+- Evaluate model performance.
+- Make predictions for customer churn using different input modes.
+
+---
+
 ### **Model Evaluation Visualizations**
 
 - **`Confusion Matrix.png`**: Visual breakdown of prediction outcomes.  
