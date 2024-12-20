@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 
 st.set_page_config(
@@ -12,8 +13,10 @@ st.set_page_config(
 
 st.title("Data Visualization")
 
+file_path = os.path.join(os.path.dirname(__file__), '../data_telco_customer_churn.csv')
+
 # Load the dataset
-data = pd.read_csv(r'../data_telco_customer_churn.csv')
+data = pd.read_csv(file_path)
 
 st.subheader("Original Data")
 st.dataframe(data.reset_index(drop=True), use_container_width=True)
