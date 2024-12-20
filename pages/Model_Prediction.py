@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
 st.set_page_config(
     page_title="Machine Learning Model",
@@ -10,8 +11,10 @@ st.set_page_config(
 
 st.title("Model Prediction")
 
+model_path = os.path.join(os.path.dirname(__file__), '../model.pkl')
+
 # Load the trained model
-model = joblib.load(r'../model.pkl')
+model = joblib.load(model_path)
 
 # Toggle between prediction modes
 prediction_mode = st.radio(
