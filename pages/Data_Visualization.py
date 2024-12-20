@@ -13,7 +13,7 @@ st.set_page_config(
 st.title("Data Visualization")
 
 # Load the dataset
-data = pd.read_csv(r'..\data_telco_customer_churn.csv')
+data = pd.read_csv(r'../data_telco_customer_churn.csv')
 
 st.subheader("Original Data")
 st.dataframe(data.reset_index(drop=True), use_container_width=True)
