@@ -36,7 +36,7 @@ This repository demonstrates the complete Data Science workflow, including **dat
   This document, providing a detailed overview of the project and its structure.
 
 - **`Telco Customer Churn.docx`**:  
-  A formal project report summarizing analysis, results, and recommendations.
+  A descriptions of Telco Customer Churn dataset with its features.
 
 - **`data_telco_customer_churn.csv`**:  
   The dataset used in this project, containing customer demographics, service usage, and contract details.
